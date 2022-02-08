@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper .header {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 100px 0px;
+  z-index: 100;
+  font-size: 22px;
+}
+
+.wrapper .header a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.wrapper .header h2 {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.wrapper .header .navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 25px;
+}
+
+.wrapper .header .navigation-menu li {
+  list-style: none;
+}
+
+.wrapper .header .navigation-menu li:first-child {
+  margin-left: 0px;
+}
+
+.wrapper .header .navigation-menu li:last-child {
+  margin-right: 0px;
+}
+
+.wrapper .baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  min-height: 100vh;
+  color: #fff;
+  padding: 170px 100px;
+}
+
+.wrapper .baner .baner-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("baner.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+.wrapper .baner .baner-img div {
+  width: 100%;
+  height: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 135px;
+  padding: 0px 20px;
+  margin-top: 50px;
+  line-height: 2;
+  position: relative;
+}
+
+.wrapper .baner .baner-img div h1 {
+  margin-bottom: 15px;
+  font-size: 60px;
+  font-family: 'Merienda';
+}
+
+.wrapper .baner .baner-img div h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.wrapper .baner .baner-img div a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  padding: 15px 35px;
+  background-color: crimson;
+  border-radius: 45px;
+}
+
+.wrapper .about {
+  height: 1200px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .about h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.wrapper .about .about-content {
+  width: 100%;
+  height: 450px;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper .about .about-content .left-panel {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  height: 480px;
+  background-image: url("shop.jpg");
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.wrapper .about .about-content .right-panel {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  padding: 20px;
+}
+
+.wrapper .about .about-content .right-panel h2 {
+  margin-bottom: 3%;
+}
+
+.wrapper .about .about-content .right-panel p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 0;
+}
+
+.wrapper .about .about-content .right-panel a {
+  padding: 15px 35px;
+  background-color: crimson;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ddd;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.wrapper .services h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 7%;
+}
+
+.wrapper .services .services-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper .services .services-content > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 400px;
+}
+
+.wrapper .services .services-content > div svg {
+  width: 100px;
+  padding-bottom: 25px;
+}
+
+.wrapper .services .services-content > div h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.wrapper .services .services-content > div p {
+  margin: 0;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.contacts h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 7%;
+}
+
+.contacts .contacts-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contacts .contacts-content > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 400px;
+}
+
+.contacts .contacts-content > div svg {
+  width: 100px;
+  padding-bottom: 25px;
+}
+
+.contacts .contacts-content > div h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.contacts .contacts-content > div p {
+  margin: 0;
+}
+
+@media (max-width: 1025px) {
+  .header {
+    padding: 20px 50px !important;
+    font-size: 16px !important;
+  }
+  .header h2 {
+    font-size: 22px !important;
+  }
+  .baner .baner-img div h1 {
+    margin-bottom: 10px !important;
+    font-size: 45px !important;
+  }
+  .baner .baner-img div h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+  }
+  .about-content {
+    padding: 8px;
+  }
+  .about-content .left-panel {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+  }
+  .about-content .right-panel {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    padding-left: 0px !important;
+  }
+  .services-content > div {
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 780px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header h2 {
+    margin-bottom: 15px;
+  }
+  .header .navigation-menu {
+    gap: 15px !important;
+  }
+  .baner .baner-img div h1 {
+    margin-bottom: 8px !important;
+    font-size: 24px !important;
+  }
+  .baner .baner-img div h2 {
+    margin-bottom: 25px !important;
+    font-size: 24px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
