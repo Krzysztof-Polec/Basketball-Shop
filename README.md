@@ -6,7 +6,6 @@ My personal website - BasketShop
 
 * HTML
 * SCSS
-* JavaScript
 * Responsive Web Design
 
 ## Demo

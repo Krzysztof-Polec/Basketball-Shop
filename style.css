@@ -225,6 +225,7 @@ body {
   background-color: #ddd;
   margin-top: 50px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .wrapper .services h3 {
@@ -270,7 +271,7 @@ body {
   margin: 0;
 }
 
-.contacts {
+.wrapper .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,16 +285,17 @@ body {
   background-color: #fff;
   margin-top: 50px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.contacts h3 {
+.wrapper .contacts h3 {
   text-align: center;
   text-transform: uppercase;
   font-size: 50px;
   margin-bottom: 7%;
 }
 
-.contacts .contacts-content {
+.wrapper .contacts .contacts-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,7 +305,7 @@ body {
       flex-wrap: wrap;
 }
 
-.contacts .contacts-content > div {
+.wrapper .contacts .contacts-content > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,18 +317,33 @@ body {
   width: 400px;
 }
 
-.contacts .contacts-content > div svg {
+.wrapper .contacts .contacts-content > div svg {
   width: 100px;
+  height: 160px;
   padding-bottom: 25px;
 }
 
-.contacts .contacts-content > div h4 {
-  font-size: 20px;
-  margin-bottom: 25px;
+.wrapper .contacts .contacts-content > div p {
+  margin: 0;
+  font-size: 22px;
+  margin-bottom: 7px;
 }
 
-.contacts .contacts-content > div p {
-  margin: 0;
+.wrapper .footer {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 @media (max-width: 1025px) {
@@ -358,6 +375,9 @@ body {
     padding-left: 0px !important;
   }
   .services-content > div {
+    margin-bottom: 65px;
+  }
+  .contacts-content > div {
     margin-bottom: 65px;
   }
 }
