@@ -73,6 +73,7 @@ body{
         }
     }
 
+    // BANNER //
     .baner{
         display: flex;
         align-items: center;
@@ -128,6 +129,7 @@ body{
         }
     }
 
+    // ABOUT //
     .about{
         height: 1200px;
         margin-top: 50px;
@@ -189,6 +191,7 @@ body{
         }
     }
 
+    // SERVICES //
     .services{
         display: flex;
         justify-content: center;
@@ -232,7 +235,8 @@ body{
             }
         }
     }
-
+    
+    // CONTACTS //
     .contacts{
         display: flex;
         justify-content: center;
@@ -275,6 +279,7 @@ body{
         }
     }
 
+    // FOOTER //
     .footer{
         background-color: black;
         color: white;
