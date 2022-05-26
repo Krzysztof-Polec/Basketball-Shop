@@ -10,4 +10,4 @@ My personal website - BasketShop
 
 ## Demo
 
-Project Link: [https://krzys5592.github.io/Basketball-Shop/](https://krzys5592.github.io/Basketball-Shop/)
+Project Link: [https://krzysztof-polec.github.io/Basketball-Shop/](https://krzysztof-polec.github.io/Basketball-Shop/)
